@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+
+h1 {
+  letter-spacing: 1px;
+}
+
+h1, h2, h3 {
+  font-family: 'Merriweather', serif;
+  color: #655c56;
+  line-height: 30px;
+  font-size: 30px;
+}
+
+#primary_link_format {
+  background-color: #90c0c7;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+}
+
+#primary_link_format:hover {
+  padding: 8px 13px 8px 13px;
+  color: #636161;
+}
+
+body {
+  background-color: #f6f4e6;
+  color: #655c56;
+  font-family: 'Oswald', sans-serif;
+}
+
+p {
+  color: #655c56;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+}
+
+#photo_size_and_cercle {
+  height: 200px;
+  width: 200px;
+  object-fit:cover;
+  border-radius: 50%;
+}
+
+.icon-size {
+  height: 50px;
+}
+
+.icon-size:hover {
+  transform: scale(1.2);
+}
+
+.card {
+  background-color: white;
+  margin: 15px auto;
+  padding: 30px;
+  max-width: 500px;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  display: inline-block;
+  margin: 0px 20px 0px 20px;
+}
+
+#lower-margin {
+    padding: 5px 30px 5px 30px;
+    background-color: #ffeadb;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
